@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SN76uFGPr74=",
+  "success": true,
+  "projectFilePath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj",
+  "expectedPackageFiles": [
+    "/Users/juniorfelixgb/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/rabbitmq.client/7.1.2/rabbitmq.client.7.1.2.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
