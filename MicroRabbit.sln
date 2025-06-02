@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "Infra.Bus\MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{A6DAC7D1-8304-45FA-AB15-B7A5199FD90C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "Infra.IoC\MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{7308A86A-9F4E-4FFE-9BA0-A10776250452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,18 @@ Global
 		{A6DAC7D1-8304-45FA-AB15-B7A5199FD90C}.Release|x64.Build.0 = Release|Any CPU
 		{A6DAC7D1-8304-45FA-AB15-B7A5199FD90C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6DAC7D1-8304-45FA-AB15-B7A5199FD90C}.Release|x86.Build.0 = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|x64.Build.0 = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Debug|x86.Build.0 = Debug|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|x64.ActiveCfg = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|x64.Build.0 = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|x86.ActiveCfg = Release|Any CPU
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +72,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{19071C1A-B83F-4317-8E6E-61F9556BC248} = {996CEBED-A05B-5D42-3FF0-982E087A2599}
 		{A6DAC7D1-8304-45FA-AB15-B7A5199FD90C} = {E376477C-F828-6C98-EC53-D2FF08090A43}
+		{7308A86A-9F4E-4FFE-9BA0-A10776250452} = {D554D12D-FB77-DBB9-D2C6-6B24B3C2D9EE}
 	EndGlobalSection
 EndGlobal

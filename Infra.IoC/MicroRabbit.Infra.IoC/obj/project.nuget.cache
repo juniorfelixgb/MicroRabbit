@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x/6BTi7eUaQ=",
+  "success": true,
+  "projectFilePath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "/Users/juniorfelixgb/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.5/microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.5/microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
