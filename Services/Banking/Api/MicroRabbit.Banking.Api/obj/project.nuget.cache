@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eZmTWc/E+1U=",
+  "success": true,
+  "projectFilePath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Api/MicroRabbit.Banking.Api/MicroRabbit.Banking.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/juniorfelixgb/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/Users/juniorfelixgb/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
