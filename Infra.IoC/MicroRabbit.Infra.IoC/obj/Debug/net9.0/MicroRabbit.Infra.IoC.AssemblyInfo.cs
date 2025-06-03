@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroRabbit.Infra.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+362709eb54beb69e974e656f2438b356e08fe4a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+634952a2912c5471e6103931832918fba3dd768c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroRabbit.Infra.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroRabbit.Infra.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

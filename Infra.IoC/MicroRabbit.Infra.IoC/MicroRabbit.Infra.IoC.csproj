@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <ProjectReference Include="../../Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj" />
+    <ProjectReference Include="../../Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj" />
+    <ProjectReference Include="../../Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj" />
+    <ProjectReference Include="../../Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj" />
   </ItemGroup>
 
 </Project>

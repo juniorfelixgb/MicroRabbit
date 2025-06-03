@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroRabbit.Infra.Bus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a07e4a87cbcc6f2deb4c99497f33385e512ed9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+634952a2912c5471e6103931832918fba3dd768c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroRabbit.Infra.Bus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroRabbit.Infra.Bus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

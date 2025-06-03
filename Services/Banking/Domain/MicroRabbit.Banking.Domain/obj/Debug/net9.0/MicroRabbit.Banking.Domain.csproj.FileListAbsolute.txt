@@ -1,0 +1,12 @@
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/bin/Debug/net9.0/MicroRabbit.Banking.Domain.deps.json
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/bin/Debug/net9.0/MicroRabbit.Banking.Domain.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/bin/Debug/net9.0/MicroRabbit.Banking.Domain.pdb
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.AssemblyInfoInputs.cache
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.AssemblyInfo.cs
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.csproj.CoreCompileInputs.cache
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.sourcelink.json
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/refint/MicroRabbit.Banking.Domain.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.pdb
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/Debug/net9.0/ref/MicroRabbit.Banking.Domain.dll

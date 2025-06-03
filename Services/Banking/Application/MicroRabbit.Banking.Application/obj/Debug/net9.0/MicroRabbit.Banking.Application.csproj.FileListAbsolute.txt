@@ -1,0 +1,16 @@
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.deps.json
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.pdb
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Domain.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Domain.pdb
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.csproj.AssemblyReference.cache
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.AssemblyInfoInputs.cache
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.AssemblyInfo.cs
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.csproj.CoreCompileInputs.cache
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.sourcelink.json
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRab.1B946F70.Up2Date
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/refint/MicroRabbit.Banking.Application.dll
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.pdb
+/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/Debug/net9.0/ref/MicroRabbit.Banking.Application.dll

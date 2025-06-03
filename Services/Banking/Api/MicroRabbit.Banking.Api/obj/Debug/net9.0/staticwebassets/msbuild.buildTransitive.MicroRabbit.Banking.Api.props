@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MicroRabbit.Banking.Api.props" />
+</Project>
