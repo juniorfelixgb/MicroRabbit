@@ -4,14 +4,14 @@
     "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj": {}
   },
   "projects": {
-    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj": {
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj",
-        "projectName": "MicroRabbit.Transfer.Api",
-        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj",
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj",
+        "projectName": "MicroRabbit.Domain.Core",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj",
         "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
-        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/obj/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,440 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj",
+        "projectName": "MicroRabbit.Infra.Bus",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
+        "projectName": "MicroRabbit.Infra.IoC",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj"
+              },
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj"
+              },
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj"
+              },
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj",
+        "projectName": "MicroRabbit.Banking.Application",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Application/MicroRabbit.Banking.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj",
+        "projectName": "MicroRabbit.Banking.Domain",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj",
+        "projectName": "MicroRabbit.Banking.Infras",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/MicroRabbit.Banking.Infras.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Infrastructure/MicroRabbit.Banking.Infras/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj",
+        "projectName": "MicroRabbit.Transfer.Api",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Api/MicroRabbit.Transfer.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj"
+              },
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/MicroRabbit.Transfer.Infra.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/MicroRabbit.Transfer.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -64,6 +498,87 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/MicroRabbit.Transfer.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/MicroRabbit.Transfer.Infra.csproj",
+        "projectName": "MicroRabbit.Transfer.Infra",
+        "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/MicroRabbit.Transfer.Infra.csproj",
+        "packagesPath": "/Users/juniorfelixgb/.nuget/packages/",
+        "outputPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Services/Transfer/Infrastructure/MicroRabbit.Transfer.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juniorfelixgb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

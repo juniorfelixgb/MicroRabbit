@@ -1,4 +1,3 @@
-using System;
 using MicroRabbit.Banking.Application.Interfaces;
 using MicroRabbit.Banking.Application.Services;
 using MicroRabbit.Banking.Domain.Interfaces;
@@ -6,7 +5,6 @@ using MicroRabbit.Banking.Infras.Contexts;
 using MicroRabbit.Banking.Infras.Repositories;
 using MicroRabbit.Domain.Core.Bus;
 using MicroRabbit.Infra.Bus;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -16,16 +14,10 @@ public static class DependencyContainer
 {
     public static void RegisterServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<AccountService>());
         services.AddTransient<IEventBus, RabbitMQBus>();
 
         services.AddTransient<IAccountService, AccountService>();
         services.AddTransient<IAccountRepository, AccountRepository>();
-
-        var connection = configuration.GetConnectionString("BankingConnection");
-        services.AddDbContext<BankingDbContext>(options =>
-            options.UseSqlServer(connection,
-                b => b.MigrationsAssembly("MicroRabbit.Banking.Api")));
 
         services.AddMediatR(cfg =>
             cfg.RegisterServicesFromAssemblyContaining<BankingDbContext>());
