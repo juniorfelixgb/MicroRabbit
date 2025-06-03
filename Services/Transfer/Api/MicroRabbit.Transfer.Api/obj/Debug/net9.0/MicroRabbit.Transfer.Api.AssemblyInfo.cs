@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroRabbit.Transfer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efa5c61296579ba1f104822bea423f7c17aa981d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b851a1695fc36bb5a960fce29b748e5dc0c6fd31")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroRabbit.Transfer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroRabbit.Transfer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
