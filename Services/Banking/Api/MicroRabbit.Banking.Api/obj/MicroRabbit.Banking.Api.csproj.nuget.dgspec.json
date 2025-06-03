@@ -382,7 +382,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "/Users/juniorfelixgb/VSCodeProjects/MicroRabbit/Domain/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
