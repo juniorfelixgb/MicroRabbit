@@ -1185,10 +1185,21 @@
           "bin/placeholder/MicroRabbit.Infra.IoC.dll": {}
         }
       },
+      "MicroRabbit.Transfer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MicroRabbit.Transfer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Transfer.Domain.dll": {}
+        }
+      },
       "MicroRabbit.Transfer.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "MicroRabbit.Transfer.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5"
         },
@@ -3115,6 +3126,11 @@
       "type": "project",
       "path": "../../../../Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
       "msbuildProject": "../../../../Infra.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj"
+    },
+    "MicroRabbit.Transfer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj",
+      "msbuildProject": "../../Domain/MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj"
     },
     "MicroRabbit.Transfer.Infra/1.0.0": {
       "type": "project",

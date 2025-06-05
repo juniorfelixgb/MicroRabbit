@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connection = builder.Configuration.GetConnectionString("BankingConnection");
 builder.Services.AddDbContext<TransferDbContext>(options =>
     options.UseSqlServer(connection,
-        b => b.MigrationsAssembly("MicroRabbit.Banking.Api")));
+        b => b.MigrationsAssembly("MicroRabbit.Transfer.Api")));
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddControllers();
 builder.Services
